@@ -1,0 +1,111 @@
+/*
+Theme Name:     Gloria Child
+Theme URI:
+Description:    My Child theme
+Author:         BK Ninja
+Author URI:
+Template:       gloria
+Version:  
+*/
+@import url("../gloria/style.css");
+
+.custom_page_t {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	border: 1px solid #E0E2E6;}
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+.page-calculator__output {bottom: -1.5rem !important;    right: 1rem !important;}
+	
+}
+
+@media screen and (min-width: 641px) and (max-width: 1280px) {
+.page-calculator__output {
+	bottom: -4rem !important;}
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1400px) {
+input.page-block__input.page-block__input--name.js-course-name.js-store {
+    height: 48px !important;
+    font-size: 18px !important;
+}
+
+.page-group__title {
+	font-size: 22px !important;}
+.page-group__toggle-title {
+    font-size: 18px !important;
+}
+
+.page-block__select {
+    height: 48px !important;    flex: 0 0 10.75rem !important;
+    width: 10.75rem !important;
+    max-width: 10.75rem !important;font-size: 1.8rem !important;
+    
+}
+select.page-block__select.page-block__select--grade.js-course-grade.js-calculate.js-store {
+    border-left: transparent;
+}
+.page-block__input {
+    height: 48px !important;
+	font-size: 1.8rem !important;
+}
+.page-section input[type="text"] {
+	border: 1px solid #E0E2E6;border-bottom: transparent !important;}
+
+.page-block:last-child .page-block__input--name {
+    border-bottom: 1px solid #E0E2E6 !important;
+}
+
+.page-group__button-remove, .page-block__button-remove { width: 2.2rem !important; height: 2.2rem !important;}
+.page-block__input--credits {
+    flex: 0 0 9.75rem !important;
+    width: 9.75rem !important;
+    max-width: 9.75rem !important;
+}
+.page-block__button-remove {
+   
+	flex: 0 0 2.2rem !important;}
+
+.page-block__input--name {
+    flex: 1 0 calc(100% - 38.25rem) !important;
+    width: calc(100% - 38.25rem) !important;
+    max-width: calc(100% - 38.25rem) !important; 
+}
+.page-group__toggle-button {
+    margin-top: 4px !important;
+}
+.page-group__button-remove {
+	top: 2px !important;}
+.page-group__output {
+    font-size: 18px !important;
+}
+.page-group__button-create {
+    height: 3rem !important;
+    border-radius: 2rem !important;
+    font-size: 14px !important;
+}
+.page-group__button-create:before {
+    height: 1rem !important;
+}
+
+.page-calculator__button-create {    font-size: 18px !important;
+    height: 3.8rem !important;
+	border-radius: 2.25rem !important;}
+.page-calculator__output-value {
+    font-size: 34px !important;
+}
+.page-calculator__output-label {
+    font-size: 10px !important;
+}
+
+}
+
+.page-block__input--weight {
+    flex: inherit !important;
+    width: 9.75rem !important;
+	max-width: 9.75rem !important;
+}
